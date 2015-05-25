@@ -1,36 +1,48 @@
 {
+    "ace": {
+        "@guessTabSize": "true",
+        "@newLineMode": "unix",
+        "@tabSize": "4",
+        "@useSoftTabs": "true"
+    },
+    "build": {
+        "@builder": "auto",
+        "@path": "/.c9/builders",
+        "@saveall": true
+    },
+    "find.nak": {
+        "@searchLimit": 100
+    },
+    "general": {
+        "@stripws": false
+    },
+    "language": {
+        "@eslintrc": "true",
+        "@instanceHighlight": "true",
+        "@semi": "true",
+        "@undeclaredVars": "true",
+        "@unusedFunctionArgs": "false",
+        "@warnLevel": "info"
+    },
     "run": {
         "@path": "/.c9/runners",
         "configs": {
+            "@inited": "true",
             "json()": {
                 "Ruby on Rails": {
-                    "runner": "Ruby on Rails (Rails 4.0 + Ruby 2.1)",
                     "command": "",
-                    "name": "Ruby on Rails",
-                    "default": true,
                     "debug": true,
-                    "env": {}
+                    "default": true,
+                    "env": {},
+                    "name": "Ruby on Rails",
+                    "runner": "Ruby on Rails (Rails 4.0 + Ruby 2.1)"
                 }
-            },
-            "@inited": "true"
+            }
         }
     },
     "share": {
+        "@app": false,
         "@preview": false,
-        "@app": false
-    },
-    "ace": {
-        "@newLineMode": "unix",
-        "@tabSize": "4",
-        "@useSoftTabs": "true",
-        "@guessTabSize": "true"
-    },
-    "language": {
-        "@warnLevel": "info"
-    },
-    "build": {
-        "@path": "/.c9/builders",
-        "@saveall": "true",
-        "@builder": "auto"
+        "@useOwnerSettings": false
     }
 }
