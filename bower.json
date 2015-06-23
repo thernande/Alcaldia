@@ -1,0 +1,17 @@
+{
+  "name": "angular",
+  "version": "0",
+  "homepage": "https://github.com/thernande/Alcaldia",
+  "authors": [
+    "Tulio Ernesto Hernandez Preciado <tehp1993@gmail.com>"
+  ],
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "angular": "~1.4.1",
+    "angular-ui-router": "~0.2.15",
+    "bootstrap": "~3.3.5"
+  }
+}

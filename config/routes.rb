@@ -11,6 +11,9 @@ Workspace::Application.routes.draw do
 
   # Example of regular route:
   get 'homes/weare' => 'homes#weare'
+  get 'homes/program' => 'homes#programproject'
+  get 'homes/service' => 'homes#service'
+  get 'homes/norm' => 'homes#norm'
 
   # Example of named route that can be invoked with purchase_url(id: product.id)
   #   get 'products/:id/purchase' => 'catalog#purchase', as: :purchase

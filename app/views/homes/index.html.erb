@@ -45,34 +45,46 @@
         </div>
         </br>
         </br>
-        <ul id="tabs" class="nav nav-tabs" data-tabs="tabs">
+        <!-- <ul id="tabs" class="nav nav-tabs" data-tabs="tabs">
             <li><a href="#deporte" data-toggle="tab">Deporte</a></li>
             <li><a href="#biblioteca" data-toggle="tab" >Biblioteca</a></li>
             <li><a href="#cultura" data-toggle="tab" >Cultura</a></li>
             <li><a href="#educacion" data-toggle="tab" >Educacion</a></li>
-        </ul>
+        </ul> -->
         
-        <div id = "tabs" class = "tab-content">
-            <div class="tab-pane " id="deporte">
-                <%= link_to image_tag("baloncesto.jpg", size: "100") , sports_path %>
+        <div class = "row">
+            <div class="col-md-3" id="deporte">
+                <h3><%= link_to 'Deporte' , sports_path %></h3>
+            </div>
+            <div class="col-md-3" id="biblioteca">
+                <h3>Biblioteca</h3>
+            </div>
+            <div class="col-md-3" id="cultura">
+                <h3>Cultura</h3>
+            </div>
+            <div class="col-md-3" id="educacion">
+                <h3>Educacion</h3>
+            </div>
+        </div>
+        
+        <div class = "row">
+            <div class="col-md-3" id="deporte">
+                <h3 class = "text-center"><%= link_to image_tag("baloncesto.jpg", size: "250x100") , sports_path, class: 'img-thumbnail' %></h3>
                 <p>esto es una pequeña introduccion sobre los que son los deportes</p>
             </div>
-            <div class="tab-pane " id="biblioteca">
-                <a><img src = "<%= asset_path 'biblio.jpg' %>" width = "300" heigth = "300" alt = "biblio"></a>
+            <div class="col-md-3" id="biblioteca">
+                <a><img src = "<%= asset_path 'biblio.jpg' %>" width = "100" heigth = "100" alt = "biblio"></a>
                 <p>esta seria una pequeña introduccion de las cosas de la biblioteca</p>
             </div>
-            <div class="tab-pane " id="cultura">
+            <div class="col-md-3" id="cultura">
                 aqui va todo lo de cultura
             </div>
-            <div class="tab-pane " id="educacion">
+            <div class="col-md-3" id="educacion">
                 aqui va todo lo de educacion
             </div>
         </div>
         
-        <div class = "footer">
-            <h5>contacto</h5>
-            <h5>3117032424</h5>
-        </div>
+        
 
     <!-- /.container -->
 
